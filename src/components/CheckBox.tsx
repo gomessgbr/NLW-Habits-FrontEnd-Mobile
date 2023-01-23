@@ -14,6 +14,7 @@ interface Props extends TouchableOpacityProps {
 }
 
 export function CheckBox({ title, checked = false, ...rest }: Props) {
+  console.log('TESTE')
   return (
     <TouchableOpacity
       activeOpacity={0.7}
